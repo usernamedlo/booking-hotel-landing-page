@@ -16,6 +16,11 @@
   @apply bg-pyellow border-2 border-white hover:bg-white hover:border-black hover:border-2 hover:text-black text-white font-medium rounded-xl;
 }
 
+.input {
+  @apply w-full p-2 border rounded-md font-light text-pgray border-none bg-gray-50;
+}
+
 input[type="date"]::-webkit-calendar-picker-indicator {
   display: none;
 }
+

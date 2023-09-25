@@ -11,7 +11,7 @@ const Homepage = () => {
         <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
           <div className="homepage h-[30rem] w-[75.75rem] rounded-xl p-[3.5rem]">
             <div className="flex flex-row justify-center h-full space-x-[14rem] text-white">
-              <div className="space-y-3 flex flex-col mt-[0.85rem]">
+              <div className="space-y-3 flex flex-col mt-[0.85rem] border-red-500 border-2">
                 <h1 className="text-5xl font-inter-600 leading-normal">
                   Best Place to Find Comfortable Hotel and Resort
                 </h1>
@@ -32,7 +32,7 @@ const Homepage = () => {
                 We partner with many wallets, to make your transactions easier.
               </p>
             </div>
-            <div className="flex flex-row space-x-4 ml-10">
+            <div className="flex flex-row space-x-2 ml-10">
                 <img src="./visaelectron.svg" alt="visa" className="w-[6.5rem] h-[3.5rem]"/>
                 <img src="./paypal.svg" alt="paypal" className="w-[6.5rem] h-[3.5rem]"/>
                 <img src="./mastercard.svg" alt="mastercard" className="w-[6.5rem] h-[3.5rem]"/>
